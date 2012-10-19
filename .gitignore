@@ -1,16 +1,30 @@
-.DS_Store
+.rbenv-*
+*.gem
+*.rbc
+
+InstalledFiles
+lib/bundler/man
+tmp
 results.html
-pkg
 html
 
-.rbenv-*
+# Tests
+test/tmp
+test/version_tmp
+spec/reports
+spec/fixtures/db
+coverage
+
+# Build
+pkg
+
+# Dotfiles
 .rvmrc
-.yardoc/
-*.gem
-coverage/
-doc/api/
-pkg/
-tmp/**/*
-start_mongod.sh
-spec/fixtures/db/
-doc
+.bundle
+.config
+
+# Documentation
+.yardoc
+_yardoc
+doc/
+rdoc
