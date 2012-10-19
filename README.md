@@ -1,0 +1,4 @@
+manadots
+========
+
+Manages your dotfiles
