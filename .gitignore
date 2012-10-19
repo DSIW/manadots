@@ -1,0 +1,16 @@
+.DS_Store
+results.html
+pkg
+html
+
+.rbenv-*
+.rvmrc
+.yardoc/
+*.gem
+coverage/
+doc/api/
+pkg/
+tmp/**/*
+start_mongod.sh
+spec/fixtures/db/
+doc

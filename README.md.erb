@@ -1,0 +1,66 @@
+# Manadots [![Build Status](https://secure.travis-ci.org/DSIW/manadots.png)](http://travis-ci.org/DSIW/manadots) [![Dependency Status](https://gemnasium.com/DSIW/manadots.png)](https://gemnasium.com/DSIW/manadots)
+
+Version: <%= require File.absolute_path("../lib/manadots/version.rb", __FILE__); Manadots::VERSION %>
+
+SMALL DESCRIPTION
+
+Author:  YOUR NAME (YOUR EMAIL)
+Copyright: Copyright (c) 2012 YOUR NAME
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'manadots'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install manadots
+
+
+## Usage
+
+<%= %x[bundle exec bin/manadots --help] %>
+
+## Deprecation Note
+
+## Manadots::MODULE::CLASS
+
+DESCRIPTION WITH EXAMPLES
+
+## Examples
+<%
+    def self.example(title, command);
+        title = "### #{title}"
+        input = "**Input:**\n\n    #{command.gsub("bundle exec bin/",'')}"
+        output = "**Output:**\n```\n#{%x[#{command}]}```"
+        [title, input, output].join("\n\n")
+    end
+%>
+
+<%= example "Title of example", "bundle exec bin/manadots PARAMS" %>
+
+
+##License
+
+
+mit, see LICENSE.txt
+
+
+
+## Links
+
+* [Source on Github](https://github/DSIW/manadots)
+* [RDoc](LINK TO RDOC.INFO)
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
